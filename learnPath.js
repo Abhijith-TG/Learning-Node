@@ -8,6 +8,14 @@ console.log(path.basename("c:\\Users\\Desktop\\NodeJS\\LearningNode\\learnPath.j
 console.log(path.basename("c:\\Users\\Desktop\\NodeJS\\LearningNode\\learnPath.js",".js"));
 //get extension only
 console.log(path.extname("c:\\Users\\Desktop\\NodeJS\\LearningNode\\learnPath.js"));
+//using join
+console.log(path.join("c:","new","user","file",".js"));
+
+console.log(path.join("c:","new","user","file",".js",".."));
+
+console.log(path.join("c:","new","user","file",".js","..",".."));
+
+
 
 
 
