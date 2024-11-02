@@ -15,6 +15,10 @@ console.log(path.join("c:","new","user","file",".js",".."));
 
 console.log(path.join("c:","new","user","file",".js","..",".."));
 
+//used for normalizing like removing unwanted \
+console.log(path.normalize("c:\\Users\\Desktop\\NodeJS\\LearningNode\\learnPath.js"));
+
+
 
 
 
